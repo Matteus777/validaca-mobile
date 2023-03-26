@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/activity_clientes.xml" value="0.161231884057971" />
-        <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/activity_create_cliente.xml" value="0.1" />
+        <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/activity_rec_senha.xml" value="0.12" />
         <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/content_clientes.xml" value="0.161231884057971" />
         <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/empty_tall_divider.xml" value="0.14791666666666667" />
         <entry key="..\:/Users/Matteus/AndroidStudioProjects/Validacao/app/src/main/res/layout/fragment_first.xml" value="0.2046875" />

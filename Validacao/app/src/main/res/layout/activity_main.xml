@@ -12,7 +12,8 @@
         android:ems="10"
         android:gravity="center"
         android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -22,7 +23,8 @@
         android:ems="10"
         android:gravity="center"
         android:hint="Senha"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -43,5 +45,14 @@
             android:layout_marginLeft="20dp"
 
             android:text="Login" />
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="50dp"
+        android:text="Esqueci minha senha" />
 </LinearLayout>

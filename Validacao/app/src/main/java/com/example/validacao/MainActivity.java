@@ -39,8 +39,20 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SharedPreferences prefs = getSharedPreferences(
+                "com.example.app", Context.MODE_PRIVATE);
+        boolean manterLogado = prefs.getBoolean("manterLogado",false);
+        if(manterLogado){
+            Intent k = new Intent(MainActivity.this, ClientesActivity.class);
+            startActivity(k);
+        }
         setContentView(R.layout.activity_main);
         Button loginButton = findViewById(R.id.button);
+        Button btnSenha = findViewById(R.id.btnSenha);
+        btnSenha.setOnClickListener(view ->{
+            Intent k = new Intent(MainActivity.this, RecSenhaActivity.class);
+            startActivity(k);
+        });
         loginButton.setOnClickListener(view -> {
             EditText loginText = findViewById(R.id.editTextTextEmailAddress);
             EditText password = findViewById(R.id.editTextTextPassword);

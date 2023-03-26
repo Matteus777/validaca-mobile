@@ -1,6 +1,8 @@
 package com.example.validacao;
 
-public class ClienteEntity {
+import java.io.Serializable;
+
+public class ClienteEntity  implements Serializable {
     private int id;
     private String name;
     private String document;
@@ -63,5 +65,11 @@ public class ClienteEntity {
 
     public void setInternalResponsible(UsuarioEntity internalResponsible) {
         this.internalResponsible = internalResponsible;
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        final ClienteEntity other = (ClienteEntity) obj;
+        return other.getId() == this.getId();
     }
 }
